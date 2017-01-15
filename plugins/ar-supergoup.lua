@@ -186,25 +186,25 @@ local function lock_group_links(msg, data, target)
   if not is_momod(msg) then 
     return 
   end 
-  local group_link_lock = data[tostring(target)]['settings']['lock_link'] 
-  if group_link_lock == 'yes' then 
+  local group_ads_lock = data[tostring(target)]['settings']['lock_ads'] 
+  if group_ads_lock == 'yes' then 
   return '❗️☻ ٱڵـړوابط بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
   else 
-    data[tostring(target)]['settings']['lock_link'] = 'yes' 
+    data[tostring(target)]['settings']['lock_ads'] = 'yes' 
     save_data(_config.moderation.data, data) 
    return '❗️☻ تـۖم قفـڵ ٱڵـړوابط فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
   end 
 end 
 
-local function unlock_group_links(msg, data, target) 
+local function unlock_group_ads(msg, data, target) 
   if not is_momod(msg) then 
     return 
   end 
-  local group_link_lock = data[tostring(target)]['settings']['lock_link'] 
-  if group_link_lock == 'no' then 
+  local group_ads_lock = data[tostring(target)]['settings']['lock_ads'] 
+  if group_ads_lock == 'no' then 
     return '❗️☻ ٱڵـړوابط بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
   else 
-    data[tostring(target)]['settings']['lock_link'] = 'no' 
+    data[tostring(target)]['settings']['lock_ads'] = 'no' 
     save_data(_config.moderation.data, data) 
   return '❗️☻ تـۖم فـتـۧح ٱڵـړوابط فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
 end 
