@@ -217,7 +217,6 @@ function create_config( )
     "ar-emoji",
     "ar-english",
     "ar-fwd",
-    "ar-help",
     "ar-info",
     "ar-join",
     "ar-me",
@@ -241,10 +240,13 @@ function create_config( )
     "invite",
     "leave_ban",
     "plugins",
-    "robot",
     "run",
     "set",
-    "welcome"
+    "welcome",
+    "ar-he2",
+    "ar-he1",
+    "ar-help",
+    "ar-ads",
 
     },
     sudo_users = {259142888},--Sudo users
