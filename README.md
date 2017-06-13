@@ -1,5 +1,6 @@
-🤖❗️ كيفية تنصيب سورس ديف كرستال
- Dev CrYsTaL
+طريقة تنصيب سورس روضي العربي
+Dev Rode
+ 
 
 
 〰➖〰➖〰➖〰➖〰
@@ -19,12 +20,12 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get upgrade
 〰➖〰➖〰➖〰➖〰
 🈂 بـعـديـن خـلـي / وانتر
-git clone https://github.com/krstal/CrYsTaL.git
+git clone https://github.com/Reda9991/RedaBot.git
 
 〰➖〰➖〰➖〰➖〰
 🌀️ وراهه خـلـي هذا كود / وانتر
 
-cd CrYsTaL
+cd Rode
 
 〰➖〰➖〰➖〰➖〰
 💠️ بـعـديـن خـلـي هاي / وانتر
@@ -44,6 +45,6 @@ cd CrYsTaL
 #ملاحظة انتضر لحد ميكمل ويطلب رقم تلفون
 〰➖〰➖〰➖〰➖〰
 
-🚁 - DevLoper : @xXxDev_iqxXx
-🚀 - Channel : @Team_faeder
-                         @dev_faed
+🚁 - DevLoper : @Reda999
+🚀 - Dev : @@KS_iq
+                         
