@@ -15,16 +15,15 @@ local text = [[
 🔹- تحويل سوبر :: تحويل الكروب سوبر | 🚀
 🔹- غادر :: البوت يخرج من المجموعة | ⛔️
 🔹➖🔸➖🔹➖🔸➖🔹➖🔸
-♦️ #Dev @xXxDev_iqxXx 🚴
-♦️ #channel : @Team_faeder  🚴
-♦️ #Bot @ll750kll_bot 🚴
+♦️ #Dev @Reda999
+♦️ #Bot @city5_bot
 ]]
 reply_msg(reply_id, text, ok_cb, false)
 end 
 
 local reply_id = msg['id'] 
 if not is_momod(msg) then 
-local ghost = "Only Sudo😐❌" 
+local ghost = "فقط للمدراء والادمنية😐❌" 
 reply_msg(reply_id, ghost, ok_cb, false) 
 end 
 
@@ -37,7 +36,7 @@ run = run
 } 
 end
 
---[[ تم التعطيل والتعريب بواسطه @xXxDev_iqxXx
+--[[ 
 
   _____              _           
 |  ___|_ _  ___  __| | ___ _ __ 
