@@ -129,25 +129,16 @@ else
   
  ## chmod 777 config_fix.sh
   
-  echo -e "\033[38;5;208m"   
-  echo -e "       CH > @Team_faeder            "
-  echo -e "       CH > @Team_faeder           "
-  echo -e "       CH > @Team_faeder    "
-  echo -e "       CH > @Team_faeder     "
-  echo -e "       CH > @Team_faeder      "
-  echo -e "       CH > @Team_faeder     "
-  echo -e "       CH > @Team_faeder            " 
-  echo -e "       CH > @Team_faeder            "     
-  echo -e "       CH > @Team_faeder           "
-  echo -e "       CH > @Team_faeder         " 
-  echo -e "       CH > @Team_faeder           " 
-  echo -e "       CH > @Team_faeder         \033[0;00m"
+  
+  echo -e "       dev > @Reda999           " 
+  echo -e "       dev > @Reda999         \033[0;00m"
   echo -e "\e[36m"                                      
-  echo -e "CH > @Team_faeder" 
+  echo -e "CH > @Reda999" 
    cat << EOF
 EOF
-echo -e "\e[100m          CH > @Team_faeder        \e[00;37;40m"
-echo -e "\e[01;34m        CH > @Team_faeder         \e[00;37;40m"
+echo -e "\e[100m          dev > @Reda999
+\e[00;37;40m"
+echo -e "\e[01;34m        dev > @Reda999         \e[00;37;40m"
 echo ""
    
   if [ -f data/config.lua ]; then
