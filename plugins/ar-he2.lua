@@ -49,7 +49,7 @@ end
 end 
 return { 
 patterns ={ 
-  "^(م1)$", 
+  "^(م2)$", 
 }, 
 run = run 
 } 
