@@ -42,7 +42,7 @@ end
 
 local reply_id = msg['id'] 
 if not is_momod(msg) then 
-local ghost = "Only Owner or Mod !" 
+local ghost = "شُـغُلَةّ مًأّلَ کْبًأّر لَتٌـلَغُبً أّنِتٌـ😂😂 !" 
 reply_msg(reply_id, ghost, ok_cb, false) 
 end 
 
@@ -56,8 +56,8 @@ run = run
 end
 --[[ 
 
-  _____              _       
-| |_ / _` |/ _ \
+            
+
 
 
                     
