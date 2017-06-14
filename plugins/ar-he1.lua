@@ -11,7 +11,7 @@ do
 
 local function leader(msg, matches)
 local reply_id = msg['id']
-if is_momod(msg) and matches[1]== 'م2' then
+if is_momod(msg) and matches[1]== 'م1' then
 local S = [[ 
 ⛔سِوَرَسِ Řφđέ ⛔
 💢 أّوٌأّمًر حًمًأّيِّةّ أّلَمًجّـمًوٌعٌةّ 💢
