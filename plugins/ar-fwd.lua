@@ -12,7 +12,7 @@ local function pre_process(msg)
     local hash = 'mate:'..msg.to.id 
     if redis:get(hash) and msg.fwd_from and not is_sudo(msg) and not is_owner(msg) and not is_momod(msg) and not is_admin1(msg)  then 
             delete_msg(msg.id, ok_cb, true) 
-            send_large_msg(get_receiver(msg), '🚷❗️لك 😒 : '..msg.from.first_name..'\nلا تسوي من توجيه القنوات لا هفك ببوك 👞ا..\n #المستخدم : @'..msg.from.username) 
+            send_large_msg(get_receiver(msg), '🚷❗️لك 😒 : '..msg.from.first_name..'\nلا تسوي  توجيه من القنوات لا هفك ببوك 👞ا..\n #المستخدم : @'..msg.from.username) 
             return "done" 
         end 
         return msg 
