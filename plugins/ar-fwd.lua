@@ -1,11 +1,7 @@
 --[[ 
--- تم التعطيل والتعريب بواسطه @xXxDev_iqxXx
+-- 
 
-  _____              _           
-|  ___|_ _  ___  __| | ___ _ __ 
-| |_ / _` |/ _ \/ _` |/ _ \ '__|
-|  _| (_| |  __/ (_| |  __/ |   
-|_|  \__,_|\___|\__,_|\___|_|   
+ 
                     
 
 ]]-- 
@@ -16,7 +12,7 @@ local function pre_process(msg)
     local hash = 'mate:'..msg.to.id 
     if redis:get(hash) and msg.fwd_from and not is_sudo(msg) and not is_owner(msg) and not is_momod(msg) and not is_admin1(msg)  then 
             delete_msg(msg.id, ok_cb, true) 
-            send_large_msg(get_receiver(msg), '🚷❗️ عـۛزيـۛزي : '..msg.from.first_name..'\nمٌمٌنوع عمل اعآدة توجية مۧن آلُقنواة هناا..\nألتزم بـٲڵـقوۧانيۧن لتجنب الـطرد⛔️🎣\n🕴 #user : @'..msg.from.username) 
+            send_large_msg(get_receiver(msg), '🚷❗️ عـۛزيـۛزي : '..msg.from.first_name..'\nمٌمٌنوع عمل اعآدة توجيه مۧن آلُقنواة هناا..\nألتزم بـٲڵـقوۧانيۧن لتجنب الـطرد⛔️🎣\n🕴 #user : @'..msg.from.username) 
             return "done" 
         end 
         return msg 
