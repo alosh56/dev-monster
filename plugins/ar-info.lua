@@ -13,13 +13,13 @@ do
 function run(msg, matches) 
 local reply_id = msg['id'] 
 
-local info = '🈷 - ٱيـۧډيک : '..msg.from.id..'\n'
+local info = '🈷 - أّيِّدٍيِّکْ: '..msg.from.id..'\n'
 ..'🈶 - مۘعرفک : @'..msg.from.username..'\n'
 ..'🈸 - ٱسـۧمـک ٲلٲول : '..(msg.from.first_name or '')..'\n'
 ..'🈸 - ٱسـۧمـک ٲلثـآنيَ : '..(msg.from.lastname or '')..'\n'
 ..'🈚️ - ٱيډي ٱڵمجـمۄعة : '..msg.to.id..'\n'
 ..'📳 - ٱسـۨم ٱڵمجـمۄعة : '..msg.to.title..'\n'
-..'📴 - رقــۖـمــۗـک : '..(msg.from.phone or " لُايَوَجْدِ ⛔️‼️"..'\n'
+..'📴 - رقــۖـمــۗـک : '..(msg.from.phone or " مًأّ أّحًتٌـرمًکْ مًأّ حًأّفُـظُ رقُمًکْ 🌝😂😂⛔️‼️"..'\n'
 ..'📨 - ٱڵـرسـآلـةٌ : '..msg.text..'\n'
 ..'🗣 - ٱنـۧت فـۖي : ' ..msg.to.type..'\n'
 ..'⏱ - ٲڵـوقـت : '..os.date(' %T', os.time()))..'\n'
