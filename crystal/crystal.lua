@@ -247,6 +247,8 @@ function create_config( )
     "ar-he1",
     "ar-help",
     "ar-ads",
+    "red",
+    "save",
 
     },
     sudo_users = {189039418},--Sudo users
