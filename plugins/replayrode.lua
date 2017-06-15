@@ -32,8 +32,7 @@ end
 -- by @iq_100k
 if redis:get(rdod) then
 if (msg.to.type == "user") then
-return "Rode Bot للحمايه \n يعمل على كروبات السوبر تصل الى 5k عضو \n\n لطلب البوت راسل المطور👇👇👇\n 🏌 ∂єνєℓσρєяѕ тєαм ☂\n\n🔹 ĐёⓋ 
-🔸@Reda999\n"
+return "اُهــلُا وَسُِهلُا بّكِ ْعزُيَزُيَ فَيَ رَوَدِيَ بّوَتْ لُحُمٌايَةِ الُكِرَوَبّاتْ لُطِلُبّ الُبّوَتْ رَاسِلُ الُمٌطِوَرَ @Reda999\n"
 else
 if ( msg.text ) and ( msg.to.type == "channel" ) or ( msg.to.type == "chat" ) then
 -- by @Reda999
