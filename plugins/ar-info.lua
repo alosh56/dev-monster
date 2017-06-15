@@ -6,7 +6,7 @@
 ▀▄ ▄▀                                         ▀▄ ▄▀ 
 ▀▄ ▄▀    name : (  ⚡Rode  )                   ▀▄ ▄▀ 
 ▀▄ ▄▀                     ŘᎧđέ Ṭέαᵯ.          ▀▄ ▄▀ 
-▀▄ ▄▀  File name : ( #ar-emoji )              ▀▄ ▄▀ 
+▀▄ ▄▀  File name : ( #ar-info. )              ▀▄ ▄▀ 
 ▀▄ ▄▀            Dev: @Reda999                ▀▄ ▄▀ 
 ▀▄ ▄▀             Dev: @ks_iq                 ▀▄ ▄▀
 ▀▄ ▄▀                                         ▀▄ ▄▀ 
