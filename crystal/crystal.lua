@@ -233,7 +233,7 @@ function create_config( )
     "arabic_lock",
     "broadcast",
     "dev",
-    "replay",
+    "replayrode",
     "get",
     "getfile",
     "inpm",
