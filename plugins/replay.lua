@@ -9,18 +9,15 @@ local f = false
 local rdod = "on" ..msg.to.id
 ------------------------------------------------
 if is_momod(msg) and w=="فتح الردود" then
-local rdod = "on" ..msg.to.id
-redis:set(rdod,true)
+local replay = "on" ..msg.to.id
+redis:set(replay,true)
 r(rr, "تم ✔️ تشغيل الردود 🔊 ", o, f) 
 end
 if is_momod(msg) and w=="قفل الردود" then
-redis:del(rdod)
+redis:del(replay)
 r(rr, "تم ✔️ تعطيل الردود 🔇", o, f) 
 end
-------------------------------------------------
---[[ 
-  
-                    
+------------------------------------------------                   
 --]]                  
 
 do 
