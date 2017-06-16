@@ -48,7 +48,7 @@ local function check_member_super(cb_extra, success, result)
       end 
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id 
       save_data(_config.moderation.data, data) 
-     local text = '❗️ ☻ تـۖم تۧـفعـيۛڵ ٱلبـۄټ فـيۧ ٱڵـمجـمـۄعة : '..msg.to.title..'\n❗️🚸معرفۛ ٲلمَطوِر: @'..msg.from.username 
+     local text = '❗مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗ ف͒ہٰٰيِٰہ☠(#سٰٰٓـوِرسٰٰٓ_ديِٰـٰف͒_مـونسٰـتر)☠ٰتَہَٰمٰ̲ہ 🛃تف͒ہٰٰـ؏ۤـٰٰيِٰہٰل آلبّہوِتَہ🛄ف͒ہٰٰيِٰہ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ : '..msg.to.title..'\n  بّہوِآسٰٰٓطۨہٰٰٰ̲ھہ☑: @'..msg.from.username 
       return reply_msg(msg.id, text, ok_cb, false) 
     end 
   end 
