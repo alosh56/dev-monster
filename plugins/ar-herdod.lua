@@ -1,7 +1,6 @@
 do
 
 local function run(msg, matches)
-
 local reply_id = msg[ id ]
 if is_momod(msg) and matches[1] ==  'م3'  then 
     local ghost = [[
