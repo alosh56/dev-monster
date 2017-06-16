@@ -97,9 +97,9 @@ local ssu = "🏌 ∂єνєℓσρєяѕ тєαм ☂\n\n🔹 ĐёⓋ 🔸@iq_10
 
 
 ----------------------------------------------------------------------------
-if is_sudo(msg) and w == "سمايل" then 
+if is_sudo(msg) and w == "روضي" then 
 r(rr, su[math.random(#su)] , o, f)  
-elseif not is_sudo(msg) and w == "سمايل" then 
+elseif not is_sudo(msg) and w == "روضي" then 
 r(rr, ss97[math.random(#ss97)] , o, f)  
 elseif w == "بوس" then 
 r(rr, bs[math.random(#bs)] , o, f)  
