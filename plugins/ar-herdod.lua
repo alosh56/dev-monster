@@ -1,9 +1,10 @@
 do
 
-local function run(msg,macthes)
-local reply_id = msg ['id']
-if is_sudo(msg) and macthes[1] == 'م3' then
-local text = [[
+local function run(msg, matches)
+
+local reply_id = msg[ id ]
+if is_momod(msg) and matches[1] ==  "م3"  then 
+    local ghost = [[
 💢ٱهےـِلَٱ وٌسًےـهےـِلَٱ بّےـ ـكےـ💢
 💢أّوٌأّمًر أّلَردٍوٌدٍ فُـيِّ أّلَمًجّـمًوٌعٌهّـ💢
 🎌✨🎌✨🎌✨🎌✨
