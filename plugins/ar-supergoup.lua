@@ -72,8 +72,7 @@ local function check_member_superrem(cb_extra, success, result)
       end 
       data[tostring(groups)][tostring(msg.to.id)] = nil 
       save_data(_config.moderation.data, data) 
-     local text = '❗مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗ 
-ف͒ہٰٰيِٰہ☠(#سٰٰٓـوِرسٰٰٓ_ديِٰـٰف͒_مـونسٰـتر)☠ٰتَہَٰمٰ̲ہ 🛃تہٰٰـ؏ۤـٰٰطيِٰہٰل آلبّہوِتَہ🛄ف͒ہٰٰيِٰہ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ : '..msg.to.title..'\nبّہوِآسٰٰٓطۨہٰٰٰ̲ھہ☑: @'..msg.from.username
+     local text = '❗مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗فف͒ہٰٰيِٰہ☠(#سٰٰٓـوِرسٰٰٓ_ديِٰـٰف͒_مـونسٰـتر)☠ٰتَہَٰمٰ̲ہ 🛃تہٰٰـ؏ۤـٰٰطيِٰہٰل آلبّہوِتَہ🛄ف͒ہٰٰيِٰہ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ : '..msg.to.title..'\nبّہوِآسٰٰٓطۨہٰٰٰ̲ھہ☑: @'..msg.from.username
       return reply_msg(msg.id, text, ok_cb, false) 
     end 
   end 
