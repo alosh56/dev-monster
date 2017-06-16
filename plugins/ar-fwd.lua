@@ -43,8 +43,8 @@ end
 
 return { 
     patterns = { 
-        '^(قفل) التوجيه$', 
-        '^(فتح) التوجيه$' 
+        '^(قفل) التوجية$', 
+        '^(فتح) التوجية$' 
     }, 
     run = iq_abs, 
     pre_process = pre_process 
