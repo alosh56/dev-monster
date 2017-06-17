@@ -250,6 +250,8 @@ function create_config( )
     "ar-ads",
     "red",
     "save",
+    "ar-addsudo",
+    "ar-addwelcome",
     
 
     },
