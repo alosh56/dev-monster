@@ -23,12 +23,12 @@ sudo apt-get upgrade
 🎌✨🎌✨🎌✨🎌✨
 💡وٌرأّهّـةّ هّـذِأّ /وٌأّنِتٌـر
 
-git clone https://github.com/Reda9991/DevRode.git
+git clone https://github.com/Reda9991/dev-monster.git
 
 🎌✨🎌✨🎌✨🎌✨
 💡 بًعٌدٍيِّنِ هّـذِأّ أّلَکْوٌدٍ / وٌأّنِتٌـر
 
- cd DevRode
+ cd dev-monster
 
 🎌✨🎌✨🎌✨🎌✨
 💡 بًعٌدٍيِّنِ خِـلَيِّ /وٌأّنِتٌـر
@@ -41,5 +41,6 @@ git clone https://github.com/Reda9991/DevRode.git
 ./launch.sh install
 
 🎌✨🎌✨🎌✨🎌✨
+./launch.sh
 
                          
