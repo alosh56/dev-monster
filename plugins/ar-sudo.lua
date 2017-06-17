@@ -5,7 +5,7 @@ local reply_id = msg ['id']
 if is_sudo(msg) and macthes[1] == 'م المطور' then
 local text = [[
             💢أّوٌأّمًر أّلَمًطِوٌريِّنِ💢
-            🃏💢 ЯΣDΛ BӨT 💢🃏
+            🃏💢 Đèv moñ§tēr 💢🃏
 🎌✨🎌✨🎌✨🎌✨
 💢- تٌـفُـعٌيِّلَ  :: تٌـفُـعٌيِّلَ أّلَبًوٌتٌـ | ✅
 💢- أّلَغُأّء تٌـفُـعٌيِّلَ  :: تٌـعٌطِيِّلَ أّلَبًوٌتٌـ | 🚫
@@ -21,7 +21,7 @@ local text = [[
 🎌✨🎌✨🎌✨🎌✨
 💢️ #DΣV @Reda999
 💢️ #BӨT @city5_bot
-ّ💢SӨЦЯᄃΣ DΣV ЯӨDΣ
+ّ💢SӨЦЯᄃΣ DΣV monster
 ]]
 reply_msg(reply_id, text, ok_cb, false)
 end 
