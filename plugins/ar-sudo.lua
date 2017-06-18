@@ -4,8 +4,8 @@ local function run(msg,macthes)
 local reply_id = msg ['id']
 if is_sudo(msg) and macthes[1] == 'م المطور' then
 local text = [[
-            💢أّوٌأّمًر أّلَمًطِوٌريِّنِ💢
-            🃏💢 Đèv moñ§tēr 💢🃏
+       💢أّوٌأّمًر أّلَمًطِوٌريِّنِ💢
+   🃏💢 Đèv moñ§tēr 💢🃏
 ✨🎌✨🎌✨🎌✨
 💢- تٌـفُـعٌيِّلَ  :: تٌـفُـعٌيِّلَ أّلَبًوٌتٌـ | ✅
 💢- أّلَغُأّء تٌـفُـعٌيِّلَ  :: تٌـعٌطِيِّلَ أّلَبًوٌتٌـ | 🚫
@@ -29,7 +29,7 @@ end
 
 local reply_id = msg['id'] 
 if not is_momod(msg) then 
-local ghost = "فقط للمدراء والادمنية😐❌" 
+local ghost = "💢🙌فقط للمطورين💢" 
 reply_msg(reply_id, ghost, ok_cb, false) 
 end 
 
