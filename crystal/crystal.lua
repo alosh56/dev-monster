@@ -253,6 +253,7 @@ function create_config( )
     "addsudo",
     "addwelcame",
     "re",
+    "rode",
     
 
     },
