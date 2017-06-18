@@ -183,7 +183,7 @@ local function lock_group_ads(msg, data, target)
   end 
   local group_ads_lock = data[tostring(target)]['settings']['lock_ads'] 
   if group_ads_lock == 'yes' then 
-   return '❗️☻ ٱڵـړوابط بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ ❗️ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ 🅾آلروِآبّہطۨہٰٰ بّہآلف͒ہٰٰ؏ۤـہٰٰل مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰلة🅾 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة \n‼️🚸   بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ    @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ  : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['lock_ads'] = 'yes' 
     save_data(_config.moderation.data, data) 
@@ -197,7 +197,7 @@ local function unlock_group_ads(msg, data, target)
   end 
   local group_ads_lock = data[tostring(target)]['settings']['lock_ads'] 
   if group_ads_lock == 'no' then 
-    return '❗️مٰ̲ہرحہٰٰـبّہآ بّہڪٰྀہٰٰ ❗️ٖ ف͒ہٰٰيِٰہٰ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰــمٰ̲ہ🛃 قྀ̲ہٰٰٰف͒ہٰٰل آلروِآبّہطۨہ🛄ٰٰ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة 🚹\n‼️🚸   بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮   @'..msg.from.username ..'\n🆔 آيِٰہٰديِٰہٰڪٰྀہٰٰٖ : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ ♊️آلروِآبّہطۨہٰٰ بّہآلف͒ہٰٰ؏ۤـہٰٰل مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰة♊️ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة ٖ \n   بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮   @'..msg.from.username ..'\n🆔 آيِٰہٰديِٰہٰڪٰྀہٰٰٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['lock_ads'] = 'no' 
     save_data(_config.moderation.data, data) 
