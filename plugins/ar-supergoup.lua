@@ -435,11 +435,11 @@ local function lock_group_fwd(msg, data, target)
   end 
   local group_fwd_lock = data[tostring(target)]['settings']['fwd'] 
   if group_fwd_lock == 'yes' then 
-    return '❗️☻ ٱعآدة ٱڵتوجية بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ ♊️ألتَہَٰوِجْۧيِٰہٰٰ̲ھہ بّہآلف͒ہٰٰ؏ۤـہٰٰل مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ♊️ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة \nبّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👨‍🔧ٰٰٖ  @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ: '..msg.from.id 
   else 
     data[tostring(target)]['settings']['fwd'] = 'yes' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم قفـڵ ٱعآدة ٱڵتوجية فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ ♊️تَہَٰمٰ̲ہ قྀ̲ہٰٰٰف͒ہٰٰل آلتَہَٰوِجْۧيِٰہٰٰ̲ھہ♊️ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة \nبّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
@@ -449,11 +449,11 @@ local function unlock_group_fwd(msg, data, target)
   end 
   local group_fwd_lock = data[tostring(target)]['settings']['fwd'] 
   if group_fwd_lock == 'no' then 
-    return '❗️☻ ٱعآدة ٱڵتوجية بٱڵفعـل مۘفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ ♊️آلتَہَٰوِجْۧيِٰہٰٰ̲ھہ بّہآلف͒ہٰٰ؏ۤـہٰٰل مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰ♊️ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة \n‼️🚸   بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ    @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ  : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['fwd'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱعآدة ٱڵتوجية فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ ♊️تَہَٰمٰ̲ہ ف͒ہٰٰتَہَٰحہٰٰ آلتَہَٰوِجْۧيِٰہٰٰ̲ھہ♊️ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰة \n‼️🚸   بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ    @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ  : '..msg.from.id 
   end 
 end 
 
