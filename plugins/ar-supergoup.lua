@@ -295,11 +295,11 @@ local function lock_group_reply(msg, data, target)
   end 
   local group_reply_lock = data[tostring(target)]['settings']['reply'] 
   if group_reply_lock == 'yes' then 
-  return '❗️☻ ٱڵـرډوډ بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id.id 
+  return '  ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🔇 آلردوِد غہٰٰيِٰہٰر مٰ̲ہفہٰٰ؏ۤـہٰٰلٰ̲ھہ بّہآلف͒ہٰٰ؏ۤـہٰٰل دآخٰ̐ہل آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ🔕\n  بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id.id 
   else 
     data[tostring(target)]['settings']['reply'] = 'yes' 
     save_data(_config.moderation.data, data) 
-  return '❗️☻ تـۖم قفـڵ  ٱڵـرډوډ فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+  return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ 🎶آلردوِد آلآنَِٰہٰ مٰ̲ہ؏ۤـہٰٰطۨہٰٰلة دآخٰ̐ہل آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ 🔇\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
@@ -309,11 +309,11 @@ local function unlock_group_reply(msg, data, target)
   end 
   local group_reply_lock = data[tostring(target)]['settings']['reply'] 
   if group_reply_lock == 'no' then 
-  return '❗️☻ ٱڵـرډوډ بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+  return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🔊 آلردوِد تَہَٰ؏ۤـہٰٰمٰ̲ہل بّہآلف͒ہٰٰ؏ۤـہٰٰل دآخٰ̐ہل آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ✔️🔝  ☑️\n  بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['reply'] = 'no' 
     save_data(_config.moderation.data, data) 
-   return '❗️☻ تـۖم فـتـۧح ٱڵـرډوډ فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🎶 آلردوِد آلآنَِٰہٰ تَہَٰ؏ۤـہٰٰمٰ̲ہل دآخٰ̐ہل آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ☑️\n‼️🚸   بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
