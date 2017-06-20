@@ -323,11 +323,11 @@ local function lock_group_username(msg, data, target)
   end 
   local group_username_lock = data[tostring(target)]['settings']['username'] 
   if group_username_lock == 'yes' then 
-   return '❗️☻ ٱڵـمٌْعرَفَ بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ آلمٰ̲ہ؏ۤـہٰٰرف͒ہٰٰ 🔘بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِل🔘 دآخٰ̐ہل آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['username'] = 'yes' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم قفـڵ ٱڵـمْعرَفَ فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+    return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ🔘 قྀ̲ہٰٰٰف͒ہٰٰل آلمٰ̲ہ؏ۤـہٰٰرف͒ہٰٰ🔘 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n  بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ  @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
@@ -337,11 +337,11 @@ local function unlock_group_username(msg, data, target)
   end 
   local group_username_lock = data[tostring(target)]['settings']['username'] 
   if group_username_lock == 'no' then 
-  return '❗️☻ ٱڵـمٌْعرَفَ بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+  return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ آلمٰ̲ہ؏ۤـہٰٰرف͒ہٰٰآتَہَٰ🔸 بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰٰ̲ھہ🔸 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ 🔵\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['username'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱڵـمٌْعرَفَ فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ🔹 ف͒ہٰٰتَہَٰحہٰٰ آلمٰ̲ہ؏ۤـہٰٰرف͒ہٰٰ🔹 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
@@ -351,11 +351,11 @@ local function lock_group_media(msg, data, target)
   end 
   local group_media_lock = data[tostring(target)]['settings']['media'] 
   if group_media_lock == 'yes' then 
-   return '❗️☻ ٱڵمٌيَدِيَاَ بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ 🎶آلمٰ̲ہيِٰہٰديِٰہٰآ ➰بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ✖️ ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['media'] = 'yes' 
     save_data(_config.moderation.data, data) 
-  return '❗️☻ تـۖم قفـڵ ٱڵمٌيَدِيَاَ فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+  return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ➿ قྀ̲ہٰٰٰف͒ہٰٰل آلمٰ̲ہيِٰہٰديِٰہٰآ🎵 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
@@ -365,11 +365,11 @@ local function unlock_group_media(msg, data, target)
   end 
   local group_media_lock = data[tostring(target)]['settings']['media'] 
   if group_media_lock == 'no' then 
-    return '❗️☻ ٱڵمٌيَدِيَاَ بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🎶 آلمٰ̲ہيِٰہٰديِٰہٰآ🔹بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰٰ̲ھہ🔹 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['media'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱڵمٌيَدِيَا فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ➿ قྀ̲ہٰٰٰف͒ہٰٰل آلمٰ̲ہيِٰہٰديِٰہٰآ🎵 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
@@ -379,11 +379,11 @@ local function lock_group_fosh(msg, data, target)
   end 
   local group_fosh_lock = data[tostring(target)]['settings']['fosh'] 
   if group_fosh_lock == 'yes' then 
-  return '❗️☻ ٱڵـكلمـاټ ٱڵـسيئة بٲڵـتاكيد مۘقفلة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+  return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠♎️ آلڪٰྀہٰٰٖلمٰ̲ہآتَہَٰ آلسٰٰٓيِٰہٰئة♋️ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلة✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['fosh'] = 'yes' 
     save_data(_config.moderation.data, data) 
-  return '❗️☻ تـۖم قفـڵ ٱڵـكلمـاټ ٱڵـسيئة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+  return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🔘قྀ̲ہٰٰٰف͒ہٰٰل آلڪٰྀہٰٰٖلمٰ̲ہآتَہَٰ آلسٰٰٓيِٰہٰئة🔚 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
@@ -393,11 +393,11 @@ local function unlock_group_fosh(msg, data, target)
   end 
   local group_fosh_lock = data[tostring(target)]['settings']['fosh'] 
   if group_fosh_lock == 'no' then 
-   return '❗️☻ ٱڵـكلمـاټ ٱڵـسيئة بٲڵـتاكيد مۘفتوحة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠➿ آلڪٰྀہٰٰٖلمٰ̲ہآتَہَٰ آلسٰٰٓيِٰہٰئٰ̲ھہ➿ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ    @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['fosh'] = 'no' 
     save_data(_config.moderation.data, data) 
-   return '❗️☻ تـۖم فـتـۧح ٱڵـكلمـاټ ٱڵـسيئة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ🔛 ف͒ہٰٰتَہَٰحہٰٰ آلڪٰྀہٰٰٖلمٰ̲ہآتَہَٰ آلسٰٰٓيِٰہٰئٰ̲ھہ🔘 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
