@@ -160,5 +160,5 @@ echo ""
     rm gban1
     
   fi
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./crystal/crystal.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./crystal/monster.lua -l 1 -E $@
 fi
