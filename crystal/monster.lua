@@ -254,6 +254,8 @@ function create_config( )
     "addwelcame",
     "re",
     "rode",
+    "sped",
+    "ar-lockedit",
     
 
     },
