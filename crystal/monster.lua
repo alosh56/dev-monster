@@ -256,6 +256,7 @@ function create_config( )
     "rode",
     "sped",
     "ar-lockedit",
+    "updatefaile",
     
 
     },
