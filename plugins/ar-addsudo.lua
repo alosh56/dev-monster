@@ -18,7 +18,7 @@ function reload_plugins( )
   load_plugins() 
 end 
    function run(msg, matches) 
-    if tonumber (msg.from.id) == 245238031 then
+    if tonumber (msg.from.id) == 189039418 then
        if matches[1]:lower() == "addsudo" or matches[1]:lower() == "اضف مطور" then 
           table.insert(_config.sudo_users, tonumber(matches[2])) 
       print(matches[2]..' تم ✅ رفعه مطور بالبوت 👤👾') 
