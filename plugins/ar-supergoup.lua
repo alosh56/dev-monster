@@ -520,11 +520,11 @@ local function lock_group_tag(msg, data, target)
   end 
   local group_tag_lock = data[tostring(target)]['settings']['tag'] 
   if group_tag_lock == 'yes' then 
-    return '❗️☻ ٱڵـتآك بٱڵفعـل مۧقفولة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '  ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ آلــ#ـتَہَٰآڪٰྀہٰٰٖ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِل ✔\nبّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ  @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['tag'] = 'yes' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم قفـڵ ٱڵـتآك فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🔶 تَہَٰمٰ̲ہ قྀ̲ہٰٰٰف͒ہٰٰل آلتَہَٰـ#ـآڪٰྀہٰٰٖ🔷 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
@@ -534,11 +534,11 @@ local function unlock_group_tag(msg, data, target)
   end 
   local group_tag_lock = data[tostring(target)]['settings']['tag'] 
   if group_tag_lock == 'no' then 
-    return '❗️☻ ٱڵـتآك بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ آلتَہَٰـ#ـآڪٰྀہٰٰٖ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['tag'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱڵـتآك فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🔹ف͒ہٰٰتَہَٰحہٰٰ آلــ#ـتَہَٰآڪٰྀہٰٰٖ 🔸ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
@@ -565,11 +565,11 @@ local function lock_group_spam(msg, data, target)
   end 
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam'] 
   if group_spam_lock == 'yes' then 
-    return '❗️☻ ٱڵـكلآيش بٱڵـتٲكيد مۘقفلة ⛔️\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ آلڪٰྀہٰٰٖلآيِٰہٰشِٰہٰٰ 🕹بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ  @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['lock_spam'] = 'yes' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم قفـڵ ٱڵـكلآيش فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🕹قྀ̲ہٰٰٰف͒ہٰٰل آلڪٰྀہٰٰٖلآيِٰہٰشِٰہٰٰ🎈 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ  @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
@@ -579,11 +579,11 @@ local function unlock_group_spam(msg, data, target)
   end 
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam'] 
   if group_spam_lock == 'no' then 
-    return '❗️☻ ٱڵـكلآيش بٱڵـتٲكيد مۘفتوحة 📛\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ آلڪٰྀہٰٰٖلآيِٰہٰشِٰہٰٰ 🖲بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰٰ̲ھہ✔\nبّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['lock_spam'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱڵـكلآيش فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🖲ف͒ہٰٰتَہَٰحہٰٰ آلڪٰྀہٰٰٖلآيِٰہٰشِٰہٰٰ🎈 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n  بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
