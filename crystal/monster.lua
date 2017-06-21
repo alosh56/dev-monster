@@ -250,13 +250,10 @@ function create_config( )
     "ar-ads",
     "red",
     "save",
-    "addsudo",
     "addwelcame",
     "re",
     "rode",
-    "sped",
-    "ar-lockedit",
-    "updatefaile",
+    "speed",
     
 
     },
