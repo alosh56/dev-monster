@@ -491,8 +491,7 @@ local function lock_group_emoji(msg, data, target)
   end 
   local group_emoji_lock = data[tostring(target)]['settings']['emoji'] 
   if group_emoji_lock == 'yes' then 
-    return '
-❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🔗 آلسٰٰٓمٰ̲ہآيِٰہٰلآتَہَٰ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🔗 آلسٰٰٓمٰ̲ہآيِٰہٰلآتَہَٰ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['emoji'] = 'yes' 
     save_data(_config.moderation.data, data) 
