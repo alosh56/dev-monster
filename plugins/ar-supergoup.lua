@@ -407,11 +407,11 @@ local function lock_group_join(msg, data, target)
   end 
   local group_join_lock = data[tostring(target)]['settings']['join'] 
   if group_join_lock == 'yes' then 
-   return '❗️☻ ٱڵـدخول عبر الرابط بٲڵـتاكيد مۘقفلة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ 🔹آلدخٰ̐ہوِل بّہآلرآبّہطۨہٰٰ🔹بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ ✔\nبّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['join'] = 'yes' 
     save_data(_config.moderation.data, data) 
-   return '❗️☻ تـۖم قفـڵ ٱڵـدخول عبر الرابط\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🔘قྀ̲ہٰٰٰف͒ہٰٰل آلدخٰ̐ہوِل بّہآلرآبّہطۨہٰٰ🔘ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   end 
 end 
 
@@ -421,11 +421,11 @@ local function unlock_group_join(msg, data, target)
   end 
   local group_join_lock = data[tostring(target)]['settings']['join'] 
   if group_join_lock == 'no' then 
-   return '❗️☻ ٱڵـدخول عبر رابط بٲڵـتاكيد مۘفتوحة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id
+   return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ 🔹آلدخٰ̐ہوِل بّہآلرآبّہطۨہٰٰ🔹بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰٰ̲ھہ ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ  @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id
   else 
     data[tostring(target)]['settings']['join'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱڵـدخول عبر الرابط\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.i
+    return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🔛 ف͒ہٰٰتَہَٰحہٰٰ آلدخٰ̐ہوِل بّہآلرآبّہطۨہٰٰ🔹 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.i
   end 
 end 
 
@@ -491,11 +491,12 @@ local function lock_group_emoji(msg, data, target)
   end 
   local group_emoji_lock = data[tostring(target)]['settings']['emoji'] 
   if group_emoji_lock == 'yes' then 
-    return '❗️☻ ٱڵـسمايلات بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '
+❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠🔗 آلسٰٰٓمٰ̲ہآيِٰہٰلآتَہَٰ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد مٰ̲ہقྀ̲ہٰٰٰف͒ہٰٰوِلٰ̲ھہ ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   else 
     data[tostring(target)]['settings']['emoji'] = 'yes' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم قفـڵ ٱڵـسمايلات فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return ' ❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰمٰ̲ہ 🔹قྀ̲ہٰٰٰف͒ہٰٰل آلسٰٰٓمٰ̲ہآيِٰہٰلآتَہَٰ⛓🔹 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ ✔\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ: '..msg.from.id 
   end 
 end 
 
@@ -505,11 +506,11 @@ local function unlock_group_emoji(msg, data, target)
   end 
   local group_emoji_lock = data[tostring(target)]['settings']['emoji'] 
   if group_emoji_lock == 'no' then 
-    return '❗️☻ ٱڵـسمايلات بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠➰ آلسٰٰٓمٰ̲ہآيِٰہٰلآتَہَٰ بّہآلتَہَٰآڪٰྀہٰٰٖيِٰہٰد ➰مٰ̲ہف͒ہٰٰتَہَٰوِحہٰٰٰ̲ھہ ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\n آيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ: '..msg.from.id 
   else 
     data[tostring(target)]['settings']['emoji'] = 'no' 
     save_data(_config.moderation.data, data) 
-    return '❗️☻ تـۖم فـتـۧح ٱڵـسمايلات فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+    return '❗️مٰ̲ہرحہٰٰبّہآ بّہڪٰྀہٰٰٖ❗️ ف͒ہٰٰيِٰہٰ ☠(#سٰٰٓوِرسٰٰٓ_ديِٰہٰف͒ہٰٰ_مٰ̲ہوِنَِٰہٰسٰٰٓتَہَٰر)☠ تَہَٰـمٰ̲ہ 🔹ف͒ہٰٰتَہَٰحہٰٰ آلسٰٰٓمٰ̲ہآيِٰہٰلآتَہَٰ🔸 ف͒ہٰٰيِٰہٰ آلمٰ̲ہجْۧمٰ̲ہوِ؏ۤـہٰٰٰ̲ھہ✔️\n بّہوِآسٰٰٓطۨہٰٰتَہَٰڪٰྀہ👮ٰٰٖ   @'..msg.from.username ..'\nآيِٰہٰديِٰہٰڪٰྀہٰٰ🆔ٖ : '..msg.from.id 
   end 
 end 
 
